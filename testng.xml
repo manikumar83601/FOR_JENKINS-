@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
    <test  thread-count="5"  name="main test">
    <classes>
-       <class name="org.example.Main"></class>
+       <class name="HELLO"></class>
    </classes>
    </test>
 </suite>
