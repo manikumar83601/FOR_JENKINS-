@@ -12,10 +12,13 @@ public  class open_chrome   {
      @Test
     void setup() {
 
+         System.out.println("browser is opening ");
+
         ChromeOptions co = new ChromeOptions();
         co.addArguments("--remote-allow-origins=*");
         System.setProperty("webdriver.chrome.driver","D:\\intelijj idea\\chrome driver\\chromedriver.exe");
         driver.get("https://online.btes.co.in/login/index.php");
+         System.out.println(" test completed ");
     }
 }
 
