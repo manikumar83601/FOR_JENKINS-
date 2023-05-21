@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/manik/IdeaProjects/FOR_JENKINS">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/manik/Desktop/akash hello world/FINAL_ASSIGNEMENT/src/main/java/Practice/_1_DataDriverTestingXML.java">
         <classes>
-            <class name="org.example.open_chrome"></class>
+            <class name="Practice._1_DataDriverTestingXML">
+                <methods>
+                    <include name="logintest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
